@@ -7,3 +7,7 @@ in a new shell script. You can then switch between your theme settings by just r
 
 Just run save_theme.sh e.g. by double clicking, select if this is a light or dark theme. Then just double click one of the
 theme scripts.
+
+## Preview
+
+![](preview.gif)
