@@ -1,6 +1,7 @@
 #!/bin/sh
 
 echo "#!/bin/sh" >new_theme.sh
+echo "gsettings set org.gnome.desktop.interface color-scheme" `gsettings get org.gnome.desktop.interface color-scheme` >> new_theme.sh
 echo "gsettings set org.gnome.desktop.background picture-uri" `gsettings get org.gnome.desktop.background picture-uri` >> new_theme.sh
 echo "gsettings set org.gnome.desktop.interface gtk-theme" `gsettings get org.gnome.desktop.interface gtk-theme` >> new_theme.sh
 echo "gsettings set org.gnome.desktop.interface icon-theme" `gsettings get org.gnome.desktop.interface icon-theme` >> new_theme.sh
